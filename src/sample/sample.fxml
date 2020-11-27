@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="636.0" prefWidth="523.0">
+         <children>
+            <Button layoutX="14.0" layoutY="91.0" mnemonicParsing="false" onAction="#hej" text="Hej" />
+            <Button layoutX="14.0" layoutY="178.0" mnemonicParsing="false" onAction="#tid" text="Tid nu" />
+            <Button layoutX="14.0" layoutY="264.0" mnemonicParsing="false" onAction="#terning" text="Terning" />
+            <TextArea fx:id="Text" layoutX="158.0" layoutY="92.0" prefHeight="200.0" prefWidth="200.0" />
+            <Button layoutX="2.0" layoutY="457.0" mnemonicParsing="false" onAction="#terningBillede" text="Terning Med Billede" />
+            <ImageView fx:id="Billede" fitHeight="150.0" fitWidth="200.0" layoutX="152.0" layoutY="382.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Pane>
+   </children>
+</GridPane>
